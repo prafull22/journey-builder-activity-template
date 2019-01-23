@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://<mc.s7.exacttarget.com>/journeybuilder/execute",
+          "url": "https://journeybuildercustomactivity.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "4c526f8e-3cb3-49f9-9b2a-bf830e04c379",
       "save": {
-        "url": "https://mc.s7.exacttarget.com/journeybuilder/save",
+        "url": "https://journeybuildercustomactivity.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://mc.s7.exacttarget.com/journeybuilder/publish",
+        "url": "https://journeybuildercustomactivity.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://mc.s7.exacttarget.com/journeybuilder/stop",
+        "url": "https://journeybuildercustomactivity.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://mc.s7.exacttarget.com/journeybuilder/validate",
+        "url": "https://journeybuildercustomactivity.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
